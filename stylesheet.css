@@ -2,12 +2,7 @@
 {
 	margin:0px;
 	font-family:Andale Mono, monospace;
-	background-color:#EEEEEE;
-}
-
-h1 
-{
-	font-size:large;
+	background-color:#EFEFEF;
 }
 
 a
@@ -30,26 +25,35 @@ header
 {
 	min-height:50px;
 	text-align:center;
-	border-bottom-style:ridge;
-	border-bottom-width:thick;
+	font-size:20px;
 	margin-top:0px;
-
 	margin-bottom:16px;
-	background-color:white;
-
 }
 
 header > h1 
 {
+	font-size:40px;
 	margin-top:0px;
 	padding-top:5px
 }
-
+header > span 
+{
+	padding-right:10px;
+	padding-left:10px;
+}
 
 #mainDiv 
 {
     margin-left:200px;
     margin-right:200px;
+}
+
+#mainDiv p
+{
+	margin-left: auto;
+	margin-right: auto;
+	width:900px;
+	text-align:center;
 }
 
 #titleScreen
@@ -80,6 +84,7 @@ header > h1
 
 #projectDisplay
 {
+	margin-top:20px;
 	margin-left: auto;
 	margin-right: auto;
 	width:900px;
@@ -93,8 +98,11 @@ header > h1
 
 #projectDisplay> h1
 {
-	font-size:medium;
+	font-size:18px;
 	text-align:center;
+	margin-top:0px;
+	margin-bottom:0px;
+
 }
 
 #projectDisplay > iframe 
@@ -106,10 +114,3 @@ header > h1
 	height:480px;
 	border-style:none;
 }
-
-#projectDisplay> a
-{
-	
-}
-
-
