@@ -1,6 +1,8 @@
 ﻿body 
 {
-	margin:0px;
+	margin-top:0px;
+	margin-left:100px;
+    	margin-right:100px;
 	font-family:Andale Mono, monospace;
 	background-color:#EFEFEF;
 }
@@ -24,10 +26,13 @@ a:hover
 header
 {
 	min-height:50px;
+	min-width: 600px;
 	text-align:center;
 	font-size:20px;
 	margin-top:0px;
 	margin-bottom:16px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 header > h1 
@@ -42,17 +47,11 @@ header > span
 	padding-left:10px;
 }
 
-#mainDiv 
-{
-    margin-left:200px;
-    margin-right:200px;
-}
-
 #mainDiv p
 {
 	margin-left: auto;
 	margin-right: auto;
-	width:900px;
+	min-width:800px;
 	text-align:center;
 }
 
